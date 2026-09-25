@@ -262,8 +262,6 @@ Response:
 }
 ```
 
-![Get All Employees](Screenshots/get-all-employees.png)
-
 ### Task 2 - Get Employee by ID
 
 Request:
@@ -287,8 +285,6 @@ Response:
 }
 ```
 
-![Get Employee by ID](Screenshots/get-employee-by-id.png)
-
 ### Employee Not Found
 
 Request:
@@ -306,8 +302,6 @@ Response:
 }
 ```
 
-![Employee Not Found](Screenshots/employee-not-found.png)
-
 ### Updated Salary Without Restart
 
 Request:
@@ -319,8 +313,6 @@ GET http://localhost:9090/employees/1
 The salary was changed in `data.json` from `45000` to `55000` without restarting the server.
 
 The API returned the updated salary successfully.
-
-![Updated Salary Without Restart](Screenshots/updated-salary-without-restart.png)
 
 ## Author
 
